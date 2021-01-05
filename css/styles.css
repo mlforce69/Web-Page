@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: cursive;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.mid-container {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+
+.top-cloud {
+    position: absolute;
+    top: 100px;
+    right: 330px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 330px;
+}
+
+.mountain{
+    position: relative;
+    bottom: 0;
+}

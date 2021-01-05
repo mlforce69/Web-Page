@@ -1,46 +1,88 @@
 body {
-    text-align: center;
-    margin: 0;
-    font-family: cursive;
+  text-align: center;
+  margin: 0;
+  font-family: "Charmonman", cursive;
+}
+
+p {
+  color: black;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
 }
 
 .top-container {
-    background-color: #E4F9F5;
-    position: relative;
-    padding-top: 100px;
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
 }
 
 .mid-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+  background-color: white;
+  padding-top: 20px;
 }
 
 .bottom-container {
-    background-color: green;
-    height: 200px;
-    width: 200px;
+  background-color: white;
+  padding-top: 5px;
 }
 
 h1 {
-    display: inline-block;
-    margin-top: 100px;
+  color: #66bfbf;
+  display: inline-block;
+  font-size: 60px;
+  line-height: 1;
+  margin-top: 100px;
 }
 
+h2 {
+  color: #66bfbf;
+}
+
+h3 {
+  color: #11999e;
+}
 
 .top-cloud {
-    position: absolute;
-    top: 100px;
-    right: 330px;
+  position: absolute;
+  top: 100px;
+  right: 330px;
 }
 
 .bottom-cloud {
-    position: absolute;
-    bottom: 300px;
-    left: 330px;
+  position: absolute;
+  bottom: 300px;
+  left: 330px;
 }
 
-.mountain{
-    position: relative;
-    bottom: 0;
+.mountain {
+  position: relative;
+  bottom: 0;
+}
+
+.contact-me {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.skill-row {
+  padding: 10px;
+}
+
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+.fa-linkedin:before {
+  content: "\f08c";
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+.fa-github:before {
+  content: "\f09b";
 }

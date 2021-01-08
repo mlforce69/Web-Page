@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: white !important;
+}
+
 .top-container {
   background-color: #e4f9f5;
   position: relative;
@@ -31,7 +35,7 @@ a {
 
 .bottom-container {
   background-color: white;
-  padding-top: 5px;
+  padding: 20px 0 20px;
 }
 
 h1 {
@@ -164,7 +168,6 @@ i {
   /* background-color: rgb(32, 36, 36); */
   
   background-color: #66bfbf;
-
 }
 
 hr {
@@ -181,4 +184,10 @@ hr {
 
 #webDevelopment {
   padding-left: 370px;
+}
+
+.copyright {
+  color:#EAF6F6;
+  font-size: 0.8rem;
+  padding-top: 20px;
 }

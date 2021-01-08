@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/devicon.min.css">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
         <div class="profile">
             <img src="images/Martin.png" alt="Martin's profile photo" />
             <h2>Hello.</h2>
-            <p>
+            <p class="intro">
                 I am Martin Lubenov, a student in the Technical University of Sofia.
                 Currently I am majoring in Informatics and Software Technologies and
                 have passion to learn new and exciting things in the area of web
@@ -33,35 +34,39 @@
         </div>
         <hr />
         <div class="skills">
-            <h2>My Skills<h2>
+            <h2 id="mySkills"><strong>My Skills</strong><h2>
                     <div class="skill-row">
-                        <img class="" src="images/web.png" alt="my skills" />
-                        <h3><strong>Web Development</strong></h3>
+                        <img class="webdev-image" src="images/webdev-logo.png" alt="web development image" />
+                        <h3 id="webDevelopment">Web Development</h3>
                         <center>
                             <table cellspacing="20">
                                 <tbody>
                                     <tr>
-                                        <td><strong>Javascript</strong></td>
+                                        <td><i class="devicon-javascript-plain colored"></i></td>
                                         <td>⭐⭐⭐⭐⭐</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>HTML5</strong></td>
+                                        <td><i class="devicon-html5-plain-wordmark colored"></i></td>
                                         <td>⭐⭐⭐⭐⭐</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>CSS3</strong></td>
+                                        <td><i class="devicon-css3-plain-wordmark colored"></i></td>
                                         <td>⭐⭐⭐⭐⭐</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Express</strong></td>
+                                        <td><i class="devicon-react-original-wordmark colored"></i></td>
                                         <td>⭐⭐⭐⭐</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>NodeJS</strong></td>
+                                        <td><i class="devicon-nodejs-plain-wordmark colored"></i></td>
                                         <td>⭐⭐⭐⭐</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>MongoDB</strong></td>
+                                        <td><i class="devicon-express-original-wordmark colored"></i></td>
+                                        <td>⭐⭐⭐</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="devicon-mongodb-plain-wordmark colored"></i></td>
                                         <td>⭐⭐⭐⭐</td>
                                     </tr>
                                 </tbody>
@@ -69,8 +74,8 @@
                         </center>
                     </div>
                     <div class="skill-row">
-                        <img class="" src="images/computer.png" alt="" />
-                        <h3><strong>Assembling a gaming PCs</strong></h3>
+                        <img class="computer-image" src="images/computer.png" alt="computer image" />
+                        <h3>Assembling a gaming PCs</h3>
                         <p>
                             I love playing video games. They have always been part of my life and I feel mentally
                             relaxed after a short session of my favourite video game - <a
@@ -84,12 +89,12 @@
         <div class="contact-me">
             <h2><strong>Get In Touch</strong></h2>
             <h3>If you like video games as much as I do.</h3>
-            <p>
+            <p class="outro">
                 Don't be shy to contact me if you want to know more about my job experience or if you just want to play
                 a game of <a href="https://www.ea.com/games/fifa/fifa-21/features">"FIFA 21"</a>. I promise I won't
                 disappoint you!
             </p>
-            <a class="btn" href="mailto:martin_lubenov_1999@abv.bg">CONTACT ME</a>
+            <a class="button" href="mailto:martin_lubenov_1999@abv.bg">CONTACT ME</a>
         </div>
     </div>
 
@@ -99,7 +104,7 @@
         <a class="fa fa-linkedin" href="https://www.linkedin.com/in/martin-lubenov-95a89916b/" style="color: var(--blue-70,#0073b1)"> LinkedIn</a><br>
         <a class="fa fa-github" href="https://github.com/mlforce69"> GitHub</a><br>
         <a class="fa fa-instagram" href="https://www.instagram.com/martinlubenov/" style="color:rgb(255, 0, 157)"> Instagram</a>
-        <p style="color:#66BFBF">© 2021 Martin Lubenov</p>
+        <p style="color:#EAF6F6">© 2021 Martin Lubenov</p>
     </div>
 </body>
 

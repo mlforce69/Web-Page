@@ -1,12 +1,16 @@
 body {
+  background-color: rgb(251, 251, 251);
   text-align: center;
-  margin: 0;
-  font-family: "Charmonman", cursive;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Charmonman", cursive, sans-serif;
 }
 
 p {
   color: black;
   font-weight: normal;
+  font-size: 16px;
+  line-height: 2;
 }
 
 a {
@@ -20,8 +24,9 @@ a {
 }
 
 .mid-container {
-  background-color: white;
+  background-color: rgb(251, 251, 251);
   padding-top: 20px;
+  margin: 100px 0;
 }
 
 .bottom-container {
@@ -39,10 +44,24 @@ h1 {
 
 h2 {
   color: #66bfbf;
+  font-size: 32px;
+  font-weight: normal;
 }
 
 h3 {
   color: #11999e;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.outro {
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
 .top-cloud {
@@ -65,10 +84,48 @@ h3 {
 .contact-me {
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: 100px 0 50px;
+}
+
+.button {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #2a99de);
+  background-image: -moz-linear-gradient(top, #11cdd4, #2a99de);
+  background-image: -ms-linear-gradient(top, #11cdd4, #2a99de);
+  background-image: -o-linear-gradient(top, #11cdd4, #2a99de);
+  background-image: linear-gradient(to bottom, #11cdd4, #2a99de);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+#mySkills {
+  margin-top: 100px;
 }
 
 .skill-row {
   padding: 10px;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 
 .fa-facebook-square:before {
@@ -85,4 +142,43 @@ h3 {
 
 .fa-github:before {
   content: "\f09b";
+}
+
+i {
+  font-size: 50px;
+}
+
+.webdev-image {
+  width: 35%;
+  float: left;
+  margin: 30px;
+}
+
+.computer-image {
+  width: 25%;
+  float: right;
+  margin: 30px;
+}
+
+.bottom-container {
+  /* background-color: rgb(32, 36, 36); */
+  
+  background-color: #66bfbf;
+
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: rgb(219, 219, 219);
+  width: 10%;
+}
+
+.profile {
+  margin-bottom: 100px;
+}
+
+#webDevelopment {
+  padding-left: 370px;
 }

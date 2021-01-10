@@ -3,7 +3,9 @@ body {
   text-align: center;
   margin-left: 0;
   margin-right: 0;
-  font-family: "Charmonman",  cursive, sans-serif;
+  /* font-family: "Charmonman",  cursive, sans-serif; */
+  font-family: 'DM Serif Text', serif;
+  font-size: 5rem;
 }
 
 p {
@@ -15,6 +17,10 @@ p {
 
 a {
   text-decoration: none;
+}
+
+.games:hover {
+  color:  #66bfbf !important;
 }
 
 a:hover {
@@ -168,6 +174,7 @@ i {
   /* background-color: rgb(32, 36, 36); */
   
   background-color: #66bfbf;
+  font-size: 1rem;
 }
 
 hr {
